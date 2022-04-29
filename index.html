@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <heaedr class="shadow-sm d-flex justify-content-between">
+        <div class="my-3 mx-5">Алимов Тимур Русланович</div>
+        <div class="my-3">201-324</div>
+        <div class="my-3 mx-5">29.04.2022</div>
+    </heaedr>
+    <main class="vh-100 d-flex justify-content-center">
+        <form action="https://httpbin.org/post" method="POST" class="shadow-lg h-50 w-50 my-auto d-flex flex-column justify-content-center">
+            <div class="w-75 h-75 mx-auto d-flex flex-column justify-content-between">
+                <label class="w-100" for="name"><input name="name" class="w-100" id="name" class="px-2" placeholder="Имя" type="text" /></label>
+                <label class="w-100" for="gender"><input name="gender" class="w-100" id="gender" class="px-2" placeholder="Пол" type="gender" /></label>
+                <label class="w-100" for="tel"><input name="tel" class="w-100" id="tel" class="px-2" placeholder="Телефон" type="tel" /></label>
+                <label class="w-100" for="email"><input name="email" class="w-100" id="Email" class="px-2" placeholder="Email" type="email" /></label>
+                <button type="submit">Отправить</button>
+            </div>
+        </form>
+    </main>
+
+</body>
+
+</html>
